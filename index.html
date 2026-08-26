@@ -4,6 +4,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="style.css">
 <title>Sweet Delights</title>
+<style>
+.hero { background:#e8d5c4; padding:80px 20px; text-align:center; }
+.hero h1 { font-size:42px; color:#4e342e; margin-bottom:20px; }
+.hero p { font-size:18px; color:#5d4037; max-width:400px; margin:0 auto 25px auto; line-height:1.5; }
+.order-btn { background:#a0522d; color:white; padding:14px 28px; border:none; border-radius:10px; font-size:18px; text-decoration:none; display:inline-block; }
+</style>
 </head>
 <body>
 <header>
@@ -14,7 +20,14 @@
 <li><a href="contact.html">Contact</a></li>
 </ul>
 </header>
-<div class="page-section">
+
+<div class="hero">
+<h1>Freshly Baked Daily</h1>
+<p>Experience the finest pastries and artisan cakes in town.</p>
+<a href="#menu" class="order-btn">Order Now</a>
+</div>
+
+<div class="page-section" id="menu">
 <h1>Our Menu - Click Image To See Price</h1>
 <div class="gallery-grid">
 <div class="gallery-item"><a href="cakes.html"><img src="cake.jpg"><h3 style="color:#5d4037; margin-top:10px;">Cakes - 6 Types</h3></a></div>
@@ -25,6 +38,7 @@
 <div class="gallery-item"><a href="macarons.html"><img src="macaron.jpg"><h3 style="color:#5d4037; margin-top:10px;">Macarons - 5 Types</h3></a></div>
 </div>
 </div>
+
 <footer><p>© 2026 Sweet Delights Bakery</p></footer>
 </body>
 </html>
