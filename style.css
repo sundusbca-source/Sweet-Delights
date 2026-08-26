@@ -4,7 +4,7 @@ padding:0;
 box-sizing:border-box;
 }
 body{
-font-family:'Arial', sans-serif;
+font-family:Arial, sans-serif;
 color:#333333;
 background-color:#fcf8f2;
 line-height:1.6;
@@ -15,9 +15,10 @@ color:#5c3d2e;
 margin-bottom:20px;
 }
 #logo{
-font-size:24px;
+font-size:28px;
 font-weight:bold;
 color:#5c3d2e;
+line-height:1.1;
 }
 #hero{
 background-color:#ebdcd0;
@@ -45,7 +46,7 @@ text-decoration:none;
 color:#5c3d2e;
 font-weight:bold;
 }
-.nav-links a:hover, .nav-links http://a.active{
+.nav-links a:hover, .nav-links a.active{
 color:#b85c38;
 }
 .btn{
@@ -159,4 +160,55 @@ margin:0 10px;
 .social-links a{
 color:#ebdcd0;
 text-decoration:none;
+}
+.about-hero{
+text-align:center;
+padding:30px 15px;
+}
+.about-hero h1{
+font-size:36px;
+color:#4E342E;
+font-weight:bold;
+margin:20px 0;
+}
+.about-hero p{
+font-size:18px;
+color:#5D4037;
+line-height:1.5;
+margin:0 10px 30px;
+}
+.about-hero h2{
+font-size:28px;
+color:#4E342E;
+margin:30px 0 20px;
+}
+.schedule-box{
+max-width:500px;
+margin:0 auto;
+border:1px solid #E0CFC2;
+border-radius:20px;
+overflow:hidden;
+background:white;
+}
+.schedule-table{
+width:100%;
+border-collapse:collapse;
+}
+.schedule-table th{
+background:#F5DDCC;
+padding:15px;
+color:#4E342E;
+font-size:18px;
+text-align:left;
+}
+.schedule-table td{
+padding:15px;
+border-top:1px solid #f0e0d5;
+color:#5D4037;
+font-size:16px;
+text-align:left;
+}
+@media(max-width:600px){
+.about-hero h1{font-size:38px;}
+.schedule-table th, .schedule-table td{font-size:16px;}
 }
