@@ -3,31 +3,25 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="style.css">
-<title>Contact - Sweet Delights</title>
+<title>Contact</title>
+<style>
+.form-box { max-width:400px; margin:0 auto; text-align:left; }
+.form-box label { margin-left:10px; font-weight:500; }
+.form-box input, .form-box textarea { width:100%; padding:12px; border:1.5px solid black; border-radius:12px; margin:5px 0 15px 0; outline:none; }
+.submit-btn { background:#8b4513; color:white; border:none; padding:12px 40px; border-radius:8px; font-size:16px; display:block; margin:20px auto; cursor:pointer; }
+</style>
 </head>
 <body>
-<header>
-<div id="logo">🍰<br>Sweet<br>Delights</div>
-<ul class="nav-links">
-<li><a href="index.html">Home</a></li>
-<li><a href="about.html">About</a></li>
-<li><a href="contact.html" class="active">Contact</a></li>
-</ul>
-</header>
+<header><div class="logo">🍰 Sweet Delights</div><ul class="nav-links"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li></ul></header>
 <div class="page-section">
-<h1>Get In Touch</h1>
-<div class="contact-card">
-<label>Name:</label>
-<input type="text">
-<label>Email:</label>
-<input type="email">
-<label>Phone:</label>
-<input type="text">
-<label>Message:</label>
-<textarea rows="5"></textarea>
+<div class="form-box">
+<label>Name</label><input type="text">
+<label>Email</label><input type="email">
+<label>Phone</label><input type="text">
+<label>Message</label><textarea rows="5"></textarea>
 <button class="submit-btn">Submit</button>
 </div>
 </div>
-<footer><p>© 2026 Sweet Delights Bakery. All Rights Reserved.</p></footer>
+<footer><p>© 2026 Sweet Delights Bakery</p></footer>
 </body>
 </html>
